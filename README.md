@@ -1,2 +1,2 @@
 # 💡 Jogo da Velha 
-### Tecnologias utilizadas: HTML, CSS e JavaScript
+Tecnologias utilizadas: HTML, CSS e JavaScript
