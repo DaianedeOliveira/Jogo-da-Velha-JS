@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lilita+One&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&family=Ubuntu+Mono&family=Wendy+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#ab86ca 1.6500000000000001px, #e5e5f7 1.6500000000000001px);
+    background-size: 33px 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+hr {
+    font-weight: bold;
+    height: 3px;
+    background: black;
+    margin-bottom: 10px;
+}
+
+.game{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.game button {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background: #f7f7f7;
+    border-radius: 10px;
+}
